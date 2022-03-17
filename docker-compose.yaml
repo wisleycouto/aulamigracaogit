@@ -5,10 +5,6 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile-dev
-    environment:
-      REACT_APP_BASE_URL_BACKEND: 'http://localhost:7081/api/'
-      REACT_APP_BACKEND_TOKEN: 'YXJxdWl0ZXR1cmFfY2dz'
-
     volumes:
       - ./frontend:/var/www/html
     ports:
