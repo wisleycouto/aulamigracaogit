@@ -4,8 +4,7 @@ Para ambientes de desenvolvimento,  deverá obrigatoriamente utilizar o docker p
 
 ```
 # Subindo o Frontend 
---1- docker-compose build
---2- docker-compose up -d
+--1- docker-compose up -d --build
 
 #listando os container após o build
 
