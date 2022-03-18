@@ -16,9 +16,9 @@ function Header (props) {
   function HeaderPadrao(props) {
 
     return(
-<header className={`br-header ${props.type}` }>
- 
-</header>
+      <header className={`br-header ${props.type}` }>
+      
+      </header>
     )
 }
 
